@@ -2,11 +2,9 @@
 
 namespace App\Entity;
 
-use App\Repository\StaffMemberRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-
-#[MappedSuperclass]
+#[ORM\MappedSuperclass]
 abstract class StaffMember
 {
     #[ORM\Column(length: 255, nullable: true)]

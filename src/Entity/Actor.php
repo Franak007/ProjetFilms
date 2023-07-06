@@ -28,9 +28,6 @@ class Actor extends StaffMember
         return $this->id;
     }
 
-    /**
-     * @return Collection<int, Movie>
-     */
     public function getMovies(): Collection
     {
         return $this->movies;
