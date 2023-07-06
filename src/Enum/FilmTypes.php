@@ -5,11 +5,11 @@ namespace App\Enum;
 enum FilmTypes : string
 {
     case Action = 'Action';
-    case Fantasy = 'Fantasy';
+    case Fantasy = 'Fantastique';
     case ScienceFiction = 'Science fiction';
-    case Drama = 'Drama';
-    case Comedy = 'Comedy';
+    case Drama = 'Drame';
+    case Comedy = 'Comédie';
     case Thriller = 'Thriller';
-    case adventure = 'Adventure';
+    case adventure = 'Aventure';
 
 }
